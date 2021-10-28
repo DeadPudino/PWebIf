@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+* {
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Tahoma, sans-serif;
+}
+
+
+.menuinicial ul {
+	font-size: 20px;
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.menuinicial ul li{
+	display: inline-block;
+}
+
+
+.menuinicial ul li a {
+	color: #CCFFFF;
+	padding: 20px;
+	text-decoration: none;
+	display: inline-block;
+	transition: background .3s;
+}
+
+
+.menuinicial ul li:hover {
+	background-color: #336666;
+}
+
+
+body {
+    background-image: url("../img/fundo3.png");
+    background-size: 100%;
+}
+
+main {
+    margin: center;
+    width: 1000px;
+    background-color: #ffffff28;
+    color: #ffffff;
+}
+
+#indicee {
+	text-align: left;
+}
+
+.indice {
+	background-color: rgba(0, 0, 0, 0.658);
+	width: 250px;
+	height: 300px;
+	display: inline-block;
+	margin-left: 150px;
+}
+
+.indice li { /* Espaçamento entre os itens (baixo) */
+	padding-bottom: 10px;
+}
+
+.indice ol li a {
+	color: #CCFFFF;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+p {
+	text-indent: 50px;
+    margin: 20px;
+	text-align: justify;
+}
+
+#musica {
+	padding-bottom: 20px;
+}
