@@ -56,6 +56,10 @@ main {
 	text-align: left;
 }
 
+#indiceBiomas {
+	height: 205px;
+}
+
 .indice {
 	background-color: #00000081;
 	width: 250px;
@@ -70,6 +74,13 @@ main {
 
 .indice ol li a {
 	color: #CCFFFF;
+}
+
+hr {
+	background-color: white;
+	height: 3px;
+	margin-right: 20px;
+	margin-left: 20px;
 }
 
 h1, h2 {

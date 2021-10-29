@@ -19,25 +19,28 @@
         <main>
             <img src="img/bosses2.png" alt="Nome" height="100%" width="100%">
             <h1>O que é?</h1>
+            <hr>
             <p>No minecraft, biomas são regiões com diferentes características geográficas, flora, relevo, temperaturas, humidade, céus, folhagens e cores. Biomas separam cada mundo gerado em ambientes diferentes; exemplos de biomas incluem alguns como florestas, taigas e tundras.</p>
 
             <p>Biomas têm um valor de temperatura que determina se neva, se chove ou se não cai água. Os valores necessários são inferiores a 0,15 para a neve, 0,15-0,95 por chuva, ou superior a 1,0 para nenhum dos dois. Estes valores podem ser usados ​​para determinar as alturas em que gera-se a neve em diferentes biomas. A temperatura também cai 0.00166667 por metro acima do nível do mar (Y = 64). Por exemplo, montanhas geraram neve no Y = 95, devido ao relevo alto, como base de valor é 0,2, e savanas não experimentam chuva ou neve devido ao seu calor.</p>
 
             <p>São divididos em cinco categorias com base em sua temperatura: coberto de neve, frio, médio, secos / quentes e neutras. Eles foram separados para evitar biomas com grandes diferenças de temperatura, sendo colocados lado-a-lado (tal como taiga frio ao lado de um deserto).</p>
 
-            <nav class="indice">
-				<ol>
+            <nav class="indice" id="indiceBiomas">
+                <ol>
                     <h2 id="indicee">Índice</h2>
-					<li><a href="#geracao">Geração</a></li>
+                    <li><a href="#geracao">Geração</a></li>
                     <ul type="disc">
                         <li><a href="#aglomerados">Aglomerados</a></li>
                         <li><a href="#margensbio">Margens</a></li>
                     </ul>
-					<li><a href="#tiposbio">Tipos de biomas</a></li>
-				</ol>
-			</nav>
+                    <li><a href="#tiposbio">Tipos de biomas</a></li>
+                </ol>
+            </nav>
 
+            <hr>
             <h1><a name="geracao"></a>Geração</h1>
+            <hr>
             <h2><a name="aglomerados"></a>Aglomerados de biomas</h2>
             <p>Embora os biomas ainda estejam divididos em 5 categorias, a geração de biomas entre 1,7 e a versão atual difere um pouco das categorias de bioma descritas abaixo. Em geral, os biomas terrestres são gerados em 4 grupos diferentes; biomas frios, temperados, exuberantes ou secos. Grupos de biomas temperados e exuberantes são frequentemente indistinguíveis uns dos outros, no entanto, com a única diferença sendo áreas de taiga e áreas de pântanos, bétulas e florestas escuras. Os dois primeiros agrupamentos de bioma são geralmente os mais expansivos. Biomas frios e secos são gerados em aglomerados menores, mas ainda podem se estender por mil ou mais blocos. Biomas frios incluem a tundra nevada coberta de neve e a taiga nevada. Os biomas secos consistem em savanas, planícies e desertos. Os biomas de planícies são incomuns porque geram aglomerados de biomas secos, além de aglomerados de biomas exuberantes e temperados. Os aglomerados de biomas temperados e exuberantes contêm montanhas, planícies e florestas.</p>
 
@@ -51,8 +54,9 @@
             <p>Durante o estágio de margem do bioma de geração do bioma, partes de alguns biomas podem ser sobrescritas e substituídas por diferentes. Isso geralmente ocorre em áreas onde dois biomas próximos criariam uma fronteira estranha e contrastante. Os biomas de planícies podem substituir Pântanos se os Pântanos fizerem fronteira com áreas nevadas ou Desertos. Os biomas margens da selva sobrescreverão Pântanos se selvas fizerem fronteira com Pântanos. Se tundra nevada faz fronteira com desertos, um bioma de montanhas arborizadas substitui o deserto.</p>
 
             <p>Taigas que cercam taigas de árvores gigantes são geradas no estágio de camada de margem do bioma, no entanto margens da selva e desertos que cercam selvas e terras áridas são gerados no estágio onde costas e praias são geradas. Como tal, as duas últimas margens do bioma não podem gerar variantes modificadas do bioma, mas os biomas modificados podem assumir qualquer margem do bioma dentro da geração da margem do bioma. Observe que o estágio de margem do bioma, não o estágio de praia/costa, na geração do bioma, lida com o caso de uma margem de selva e pântano.</p>
-            
+            <hr>
             <h1><a name="tiposbio"></a>Tipos de biomas</h1>
+            <hr>
             <p>Na Edição Java, atualmente, existem 67 biomas na superfície, 5 biomas no Nether, 5 biomas no End, e 2 biomas não utilizados, com um total de 79 biomas diferentes. Na Edição Bedrock, no entanto, existem 66 biomas do mundo superior, 5 biomas no Nether, 1 bioma no End e 3 biomas não utilizados, com um total de 75. Os biomas podem ser distinguidos pela grama e cores das folhas (a cor da água também difere entre os biomas no bioma, ao longo com os tipos de blocos presentes (por exemplo, tipos de árvores ou outras plantas como cactos, cobertura de areia em desertos)). Os biomas são pseudo-gerados aleatoriamente usando o gerador de terreno.</p>
 
             <p>Os biomas são separados em 6 classes de temperatura. Os nevados têm sua temperatura listada em purple, cold in verde, temperado/exuberante laranja, seco/quente vermelho, e o end em azul. Os biomas de temperatura neutra ou desconhecida não têm classe de temperatura. As temperaturas são fornecidas ao nível do mar.</p>
