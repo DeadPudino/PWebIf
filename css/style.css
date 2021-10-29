@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-
 * {
 	margin: 0 auto;
 	box-sizing: border-box;
@@ -23,7 +22,6 @@
 	display: inline-block;
 }
 
-
 .menuinicial ul li a {
 	color: #CCFFFF;
 	padding: 20px;
@@ -32,11 +30,9 @@
 	transition: background .3s;
 }
 
-
 .menuinicial ul li:hover {
 	background-color: #336666;
 }
-
 
 body {
     background-image: url("../img/fundo3.png");
@@ -73,6 +69,7 @@ main {
 h1, h2 {
     text-align: center;
     padding: 20px;
+	margin-top: 20px;
 }
 
 p {
