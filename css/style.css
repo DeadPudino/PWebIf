@@ -7,6 +7,10 @@
 	font-family: Tahoma, sans-serif;
 }
 
+.menuinicial li {
+	padding-left: 30px;
+	padding-right: 30px;
+}
 
 .menuinicial ul {
 	font-size: 20px;
