@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
 	margin: 0 auto;
 	box-sizing: border-box;
@@ -46,14 +47,19 @@ main {
     color: #ffffff;
 }
 
+#video {
+	float: right;
+	padding: 20px;
+}
+
 #indicee {
 	text-align: left;
 }
 
 .indice {
-	background-color: rgba(0, 0, 0, 0.658);
+	background-color: #00000081;
 	width: 250px;
-	height: 300px;
+	height: 375px;
 	display: inline-block;
 	margin-left: 150px;
 }
@@ -69,7 +75,6 @@ main {
 h1, h2 {
     text-align: center;
     padding: 20px;
-	margin-top: 20px;
 }
 
 p {
@@ -78,6 +83,19 @@ p {
 	text-align: justify;
 }
 
-#musica {
+table {
+	padding: 20px;
+}
+
+.testando {
+	text-align: justify;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #000000;
+}
+
+#ultimo {
 	padding-bottom: 20px;
 }
