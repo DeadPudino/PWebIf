@@ -48,8 +48,16 @@ main {
 }
 
 #video {
+	border: 1px solid #ffffff;
 	float: right;
-	padding: 20px;
+	margin: 10px 20px 10px 20px;
+}
+
+.linhasBloco {
+	background-color: #00000081;
+	width: 960px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 #indicee {
@@ -61,11 +69,13 @@ main {
 }
 
 .indice {
+	border: 1px solid #ffffff;
 	background-color: #00000081;
 	width: 250px;
 	height: 375px;
 	display: inline-block;
 	margin-left: 150px;
+	margin-top: 30px;
 }
 
 .indice li { /* Espaçamento entre os itens (baixo) */
@@ -78,9 +88,6 @@ main {
 
 hr {
 	background-color: white;
-	height: 3px;
-	margin-right: 20px;
-	margin-left: 20px;
 }
 
 h1, h2 {
