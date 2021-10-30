@@ -47,6 +47,48 @@ main {
     color: #ffffff;
 }
 
+.comment {
+	display: flex;
+}
+
+.comment input {
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	margin-bottom: 15px;
+	border: 2px solid #326048;
+}
+
+.comment input:focus {
+	border: 2px solid #469CB6;
+	outline: 0;
+}
+
+.comment textarea {
+	width: 100%;
+	height: 150px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	border: 2px solid #326048;
+}
+
+.comment textarea:focus {
+	border: 2px solid #469CB6;
+	outline: 0;
+}
+
+.comment button {
+	border: 0;
+	padding: 10px 30px;
+	background: #38626e;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.comment button:hover {
+	background-color: #2e515a;
+}
+
 #video {
 	border: 1px solid #ffffff;
 	float: right;
@@ -65,7 +107,7 @@ main {
 }
 
 #indiceBiomas {
-	height: 205px;
+	height: 240px;
 }
 
 .indice {
@@ -93,6 +135,10 @@ hr {
 h1, h2 {
     text-align: center;
     padding: 20px;
+}
+
+.h2formatado {
+	padding-top: 0px;
 }
 
 p {
