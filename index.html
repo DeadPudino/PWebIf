@@ -32,10 +32,7 @@
                     <h2 id="indicee">Índice</h2>
 					<li><a href="#jogabilidade">Jogabilidade</a></li>
                     <ul type="disc">
-                        <li><a href="#sobrevivencia">Sobrevivência</a></li>
-                        <li><a href="#criativo">Criativo</a></li>
-                        <li><a href="#aventura">Aventura</a></li>
-						<li><a href="#espectador">Espectador</a></li>
+                        <li><a href="#modos">Modos</a></li>
                     </ul>
 					<li><a href="#desenvolvimento">Desenvolvimento</a></li>
 					<li><a href="#lancamento">Lançamento</a></li>
@@ -63,29 +60,36 @@
 
             <p><i>Minecraft</i> consiste em cinco modos de jogo: sobrevivência, criativo, aventura, hardcore e espectador. Ele também tem um sistema de dificuldade variável de quatro níveis. Por exemplo, a dificuldade pacífica impede que criaturas hostis desovem, e a dificuldade difícil permite que os jogadores morram de fome se sua barra de fome estiver esgotada.</p>
             
-            <h2><a name="sobrevivencia"></a>Modo sobrevivência</h2>
-            <p>No modo sobrevivência, os jogadores precisam reunir recursos naturais, como madeira e pedra encontrados no ambiente, para criar certos blocos e itens. Dependendo da dificuldade, criaturas hostis aparecem em áreas mais escuras fora de um determinado raio do personagem, exigindo que os jogadores construam um abrigo à noite. O modo também possui uma barra de vida que é esgotada por ataques de monstros, quedas, afogamentos, queda em lava, asfixiamento, fome e outros eventos. Os jogadores também têm uma barra de fome, que deve ser recarregada periodicamente pela ingestão de alimentos no jogo, exceto em dificuldades pacíficas. Se a barra de fome estiver esgotada, a cura automática será interrompida e, eventualmente, a saúde se esgotará. A saúde reabastece quando os jogadores têm uma barra de fome quase cheia ou continuamente em dificuldade pacífica.</p>
-
-            <p>Os jogadores podem criar uma grande variedade de itens em <i>Minecraft</i> para atenderem as suas necessidades de sobrevivência. Os itens fabricáveis ​​incluem armaduras, que mitigam os danos dos ataques; armas (como espadas), que permitem que monstros e animais sejam mortos com mais facilidade; e ferramentas, que quebram certos tipos de blocos mais rapidamente. Alguns itens têm várias camadas, dependendo do material usado para fabricá-los, com itens de camada superior sendo mais eficazes e duráveis. Os jogadores podem construir fornos, que podem cozinhar alimentos, processar minérios e converter materiais em outros materiais. Os jogadores também podem trocar mercadorias com aldeões através de um sistema de troca, que envolve a troca de esmeraldas por diferentes mercadorias e vice-versa.</p>
-
-            <p>O jogo possui um sistema de inventário, permitindo que os jogadores carreguem um número limitado de itens. Ao morrer, os itens no inventário são descartados e os jogadores reaparecem no ponto de desova, que por padrão é o local onde os jogadores aparecem no jogo pela primeira vez e podem ser redefinidos dormindo na cama. Os itens descartados podem ser recuperados se os jogadores puderem alcançá-los antes que eles desapareçam após 5 minutos. Os jogadores podem adquirir pontos de experiência matando monstros e outros jogadores, minerando, fundindo minérios, criando animais e cozinhando alimentos. Pontos de experiência podem ser gastos em ferramentas, armaduras e armas encantadas. Itens encantados geralmente são mais poderosos, duram mais ou têm outros efeitos especiais.</p>
-
-            <p>O modo hardcore é uma variante do modo sobrevivência bloqueada para a configuração mais difícil e com morte permanente, que exclui permanentemente o mundo se o jogador morrer. Se um jogador morre em um servidor multijogador definido como hardcore, ele é colocado no modo espectador.</p>
-
-            <h2><a name="criativo"></a>Modo criativo</h2>
-            <p>No modo criativo, os jogadores têm acesso a todos os recursos e itens do jogo através do menu inventário e podem colocá-los ou removê-los instantaneamente. Os jogadores podem alternar a capacidade de voar livremente pelo mundo do jogo à vontade, e seus personagens não sofrem nenhum dano e não são afetados pela fome. Esse modo de jogo ajuda os jogadores a se concentrarem na construção e criação de projetos de qualquer tamanho, sem perturbações.</p>
-
-            <h2><a name="aventura"></a>Modo aventura</h2>
-            <p>O modo aventura foi projetado especificamente para que os jogadores pudessem experimentar mapas personalizados criados pelo usuário. A jogabilidade é semelhante ao modo sobrevivência, mas com várias restrições, que podem ser aplicadas ao mundo do jogo pelo criador do mapa. Isso força os jogadores a obter os itens necessários e experimentar aventuras da maneira que o cartógrafo pretender. Outra adição projetada para mapas personalizados é o bloco de comando; esse bloco permite que os cartógrafos expandam as interações com os jogadores por meio de comandos de servidor com script.</p>
-
-            <h2><a name="espectador"></a>Modo espectador</h2>
-            <p>O modo espectador permite aos jogadores voarem através de blocos e assistir ao jogo sem interagir diretamente. Os jogadores não têm um inventário, mas podem se teletransportar para outros jogadores e visualizar da perspectiva do mesmo ou de uma criatura. Este modo de jogo pode ser acessado somente na edição Java ou para computadores.</p>
+            <table id="modos">
+                <tr bgcolor="#326048" align="center">
+                    <th height="50px" width="150px">Modos</th>
+                    <th>Voa</th>
+                    <th>Morre</th>
+                    <th>Comandos</th>
+                </tr>
+                <tr bgcolor="#8FD6BB" align="center">
+                    <td height="50px" bgcolor="#469CB6">Sobrevivência</td>
+                    <td class="testando">Nestes biomas, há precipitação de neve em qualquer altura. A folhagem e a grama serão verde-azuladas.</td>
+                </tr>
+                <tr height="50px" bgcolor="#8FD6BB" align="center">
+                    <td bgcolor="#469CB6">Criativo</td>
+                    <td class="testando">Nestes biomas a neve começa acima uma certa altura, mas antes da altura de 256 blocos. Caso contrário, chove. A folhagem e grama serão verde-azuladas.</td>
+                </tr>
+                <tr height="50px" bgcolor="#8FD6BB" align="center">
+                    <td bgcolor="#469CB6">Aventura</td>
+                    <td class="testando">Nestes biomas, começa a nevar acima do limite de altura de 256 blocos. Caso contrário, chove. A folhagem e grama é verde exuberante, exceto o pântano, floresta coberta e biomas de selva, que têm grama de cor escura e brilhante.</td>
+                </tr>
+                <tr height="50px" bgcolor="#8FD6BB" align="center">
+                    <td bgcolor="#469CB6">Espectador</td>
+                    <td class="testando">Nestes biomas, não chove nem a neva. A folhagem e grama é verde oliva, exceto biomas de mesa, que têm grama marrom.</td>
+                </tr>
+            </table>
 
             <h2><a name="multijogador"></a>Multijogador</h2>
             <p>O modo multijogador em <i>Minecraft</i> está disponível através do multijogador direto de jogo a jogo, rede de área local (LAN), tela dividida local e servidores (hospedados por jogadores e empresas). Este modo permite que vários jogadores interajam e se comuniquem entre si em um único mundo. Os jogadores podem executar seus próprios servidores, usar um provedor de hospedagem ou conectar-se diretamente ao jogo de outro jogador via Xbox Live. Os mundos para um jogador têm suporte à rede de área local, permitindo que os jogadores entrem em um mundo em computadores interconectados localmente sem uma configuração de servidor. Os servidores de <i>Minecraft</i> são guiados por operadores, que têm acesso aos comandos do servidor, como definir a hora do dia e teleportar jogadores. Os operadores também podem configurar restrições sobre quais nomes de usuários ou endereços IP são permitidos ou que não podem entrar no servidor. Os servidores multijogador têm uma ampla variedade de atividades, com alguns contendo regras e costumes únicos. Um dos servidores maiores e mais populares é o Hypixel, que foi visitado por mais de 14 milhões de jogadores únicos. O combate jogador contra jogador (PvP) pode ser ativado para permitir combates entre jogadores. Muitos servidores possuem plugins personalizados que permitem ações que normalmente não são possíveis.</p>
 
             <h2><i>Minecraft Realms</i></h2>
-            <p>Em 2013, a Mojang anunciou <a href="https://www.minecraft.net/realms" target="_blank"><i>Minecraft Realms</i></a>, um serviço de hospedagem de servidores destinado a permitir que os jogadores executem jogos multijogador de um servidor com facilidade e segurança, sem precisar configurar os seus próprios. Ao contrário de um servidor padrão, apenas jogadores convidados podem ingressar nos servidores Realms e esses servidores não usam endereços IP. Os proprietários de servidores de <i>Minecraft Realms</i> pagam uma taxa única mensalmente, podendo convidar até vinte pessoas para jogar em seu servidor, com até dez jogadores online ao mesmo tempo. Os servidores de <i>Realms</i> para <i>Minecraft: Java Edition</i> não suportam plugins criados pelo usuário, mas os jogadores podem reproduzir mapas personalizados. Os servidores de <i>Minecraft</i> Realms suportam complementos criados pelo usuário, pacotes de recursos, pacotes de comportamento e mapas personalizados de <i>Minecraft</i>. Na Electronic Entertainment Expo 2016, foi anunciado que <i>Realms</i> permitiria que <i>Minecraft</i> suportasse um compartilhamento de plataforma cruzada entre as plataformas Windows 10, iOS e Android a partir de junho de 2016, com suporte a Xbox One e Nintendo Switch vindo mais tarde em 2017, além de suporte para dispositivos de realidade virtual. Em 31 de julho de 2017, a Mojang lançou a versão beta da atualização, permitindo a reprodução em várias plataformas.</p>
+            <p>Em 2013, a Mojang anunciou <a href="https://www.minecraft.net/realms" target="_blank" style="text-decoration: none"><i>Minecraft Realms</i></a>, um serviço de hospedagem de servidores destinado a permitir que os jogadores executem jogos multijogador de um servidor com facilidade e segurança, sem precisar configurar os seus próprios. Ao contrário de um servidor padrão, apenas jogadores convidados podem ingressar nos servidores Realms e esses servidores não usam endereços IP. Os proprietários de servidores de <i>Minecraft Realms</i> pagam uma taxa única mensalmente, podendo convidar até vinte pessoas para jogar em seu servidor, com até dez jogadores online ao mesmo tempo. Os servidores de <i>Realms</i> para <i>Minecraft: Java Edition</i> não suportam plugins criados pelo usuário, mas os jogadores podem reproduzir mapas personalizados. Os servidores de <i>Minecraft</i> Realms suportam complementos criados pelo usuário, pacotes de recursos, pacotes de comportamento e mapas personalizados de <i>Minecraft</i>. Na Electronic Entertainment Expo 2016, foi anunciado que <i>Realms</i> permitiria que <i>Minecraft</i> suportasse um compartilhamento de plataforma cruzada entre as plataformas Windows 10, iOS e Android a partir de junho de 2016, com suporte a Xbox One e Nintendo Switch vindo mais tarde em 2017, além de suporte para dispositivos de realidade virtual. Em 31 de julho de 2017, a Mojang lançou a versão beta da atualização, permitindo a reprodução em várias plataformas.</p>
             
             <div class="linhasBloco">
                 <hr>
