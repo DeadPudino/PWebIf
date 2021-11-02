@@ -88,7 +88,7 @@ main {
 	background-color: #2e515a;
 }
 
-#video {
+.video {
 	border: 1px solid #ffffff;
 	float: right;
 	margin: 10px 20px 10px 20px;
@@ -113,7 +113,7 @@ main {
 	border: 1px solid #ffffff;
 	background-color: #00000081;
 	width: 250px;
-	height: 250px;
+	height: 295px;
 	display: inline-block;
 	margin-left: 150px;
 	margin-top: 30px;
@@ -128,10 +128,7 @@ main {
 }
 
 #jogabilidade {
-	text-align: center;
-	border: 1px solid #ffffff;
-	width: 551px;
-	height: 314px;
+	float: left;
 }
 
 hr {
@@ -164,6 +161,34 @@ table {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	color: #000000;
+}
+
+#modos #l1c1 {
+	background-color: #326048;
+}
+
+#modos th {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+#modos td {
+	background-color: #8FD6BB;
+	text-align: center;
+	padding: 20px;
+}
+
+#modos #c1 {
+	background-color: #469CB6;
+	text-align: center;
+}
+
+#modos #falso {
+	background-color: #ff3c3c;
+}
+
+#modos #verdadeiro {
+	background-color: #41c741;
 }
 
 #ultimo {
