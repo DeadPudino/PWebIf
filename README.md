@@ -1,25 +1,14 @@
 # PWebIf
 
-Trabalho de escola.
+Trabalho de escola <br>
+Professor Guibson
 
+### Requisitos mínimos:
+<hr>
 
-Requisitos mínimos:
----------------------------------
-Imagens, Listas;
-Links para redes sociais;
-Vídeos do YouTube e pelo menos um formulário.
-----------------------------------
-
-
-Objeto final:
-----------------------------------
-Um Site com no MÍNIMO 2 páginas.
-----------------------------------
-
-
-Idéias:
-----------------------------------
-- Página inicial
-- Página biomas
-- Feedback (ideia pra implementação do formulário)
-----------------------------------
+- [x] Imagens.
+- [x] Listas
+- [x] Links para redes sociais
+- [x] Vídeos do YouTube
+- [x] Um formulário
+- [x] No mínimo duas páginas
