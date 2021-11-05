@@ -3,10 +3,11 @@
 Trabalho de escola <br>
 Professor Guibson
 
-### Requisitos mínimos:
 <hr>
+  
+### Requisitos mínimos:
 
-- [x] Imagens.
+- [x] Imagens
 - [x] Listas
 - [x] Links para redes sociais
 - [x] Vídeos do YouTube
